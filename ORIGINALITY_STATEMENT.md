@@ -1,0 +1,1 @@
+All text in this specification, notice template, and CLI code is original work created by the Korext team. No text was copied or closely paraphrased from existing open source licenses, specifications, or standards. Citations to prior art are for context only.

@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+AI-LICENSE
+ai-license-notice.yaml
+.ai-attestation.yaml
