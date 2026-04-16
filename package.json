@@ -1,6 +1,6 @@
 {
   "name": "@korext/ai-license",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Declare AI provenance in your open source project. Open standard notice that attaches to any existing license.",
   "keywords": [
     "ai",
@@ -28,7 +28,7 @@
     "url": "https://github.com/Korext/ai-license/issues"
   },
   "bin": {
-    "ai-license": "./bin/ai-license.js"
+    "ai-license": "bin/ai-license.js"
   },
   "files": [
     "bin/",
