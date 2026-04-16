@@ -1,69 +1,35 @@
-name: 'AI License'
-description: 'Verify the AI License Notice is present and up to date'
-author: 'Korext'
-
-branding:
-  icon: 'shield'
-    color: 'blue'
-    
-    inputs:
-      require-notice:
-          description: 'Fail if AI-LICENSE file is missing'
-              required: false
-                  default: 'true'
-                    require-freshness:
-                        description: 'Maximum staleness of notice (e.g. 30d, 90d)'
-                            required: false
-                                default: '90d'
-                                  minimum-tier:
-                                      description: 'Minimum governance tier (UNGOVERNED, SCANNED, ATTESTED)'
-                                          required: false
-                                              default: ''
-                                              
-                                              outputs:
-                                                ai-level:
-                                                    description: 'AI provenance level (NONE, LOW, MODERATE, HIGH, FULL)'
-                                                      governance-tier:
-                                                          description: 'Governance tier (UNGOVERNED, SCANNED, ATTESTED)'
-                                                            notice-age-days:
-                                                                description: 'Days since notice was last generated'
-                                                                  status:
-                                                                      description: 'PASS or FAIL'
-                                                                      
-                                                                      runs:
-                                                                        using: 'node20'
-                                                                          main: 'action/index.js'name: 'AI License Notice Check'
+name: 'AI License Notice Check'
 description: 'Verify the AI License Notice is present and up to date'
 author: 'Korext'
 
 branding:
   icon: 'file-text'
-    color: 'blue'
+  color: 'blue'
 
-    inputs:
-      require-notice:
-          description: 'Fail if AI-LICENSE file is missing'
-              required: false
-                  default: 'true'
-                    require-freshness:
-                        description: 'Maximum staleness of notice (e.g. 30d, 90d)'
-                            required: false
-                                default: '90d'
-                                  minimum-tier:
-                                      description: 'Minimum governance tier (UNGOVERNED, SCANNED, ATTESTED)'
-                                          required: false
-                                              default: ''
+inputs:
+  require-notice:
+    description: 'Fail if AI-LICENSE file is missing'
+    required: false
+    default: 'true'
+  require-freshness:
+    description: 'Maximum staleness of notice (e.g. 30d, 90d)'
+    required: false
+    default: '90d'
+  minimum-tier:
+    description: 'Minimum governance tier (UNGOVERNED, SCANNED, ATTESTED)'
+    required: false
+    default: ''
 
-                                              outputs:
-                                                ai-level:
-                                                    description: 'AI provenance level (NONE, LOW, MODERATE, HIGH, FULL)'
-                                                      governance-tier:
-                                                          description: 'Governance tier (UNGOVERNED, SCANNED, ATTESTED)'
-                                                            notice-age-days:
-                                                                description: 'Days since notice was last generated'
-                                                                  status:
-                                                                      description: 'PASS or FAIL'
+outputs:
+  ai-level:
+    description: 'AI provenance level (NONE, LOW, MODERATE, HIGH, FULL)'
+  governance-tier:
+    description: 'Governance tier (UNGOVERNED, SCANNED, ATTESTED)'
+  notice-age-days:
+    description: 'Days since notice was last generated'
+  status:
+    description: 'PASS or FAIL'
 
-                                                                      runs:
-                                                                        using: 'node20'
-                                                                          main: 'action/index.js'
+runs:
+  using: 'node20'
+  main: 'action/index.js'
