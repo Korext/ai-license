@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 
-const VERSION = '1.0.0';
+const VERSION = '1.0.3';
 
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
