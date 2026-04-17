@@ -23,7 +23,7 @@ The AI provenance data in this notice
 can be verified against the
 .ai-attestation.yaml file in the repo
 root, or online at:
-https://oss.korext.com/report/[OWNER]/[REPO]
+https://oss.korext.com/ai-attestation/report/[OWNER]/[REPO]
 
 LEARN MORE:
 https://oss.korext.com/ai-license

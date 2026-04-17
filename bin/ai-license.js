@@ -153,7 +153,7 @@ The AI provenance data in this notice
 can be verified against the
 .ai-attestation.yaml file in the repo
 root, or online at:
-https://oss.korext.com/report/${owner}/${name}
+https://oss.korext.com/ai-attestation/report/${owner}/${name}
 
 LEARN MORE:
 https://oss.korext.com/ai-license
@@ -188,7 +188,7 @@ function generateNoticeYamlObj(attest) {
     },
     verification: {
       attestation_file: '.ai-attestation.yaml',
-      online_report: `https://oss.korext.com/report/${data.repo.owner}/${data.repo.name}`
+      online_report: `https://oss.korext.com/ai-attestation/report/${data.repo.owner}/${data.repo.name}`
     },
     specification: {
       url: 'https://oss.korext.com/ai-license',
@@ -248,7 +248,7 @@ function printSummary(attest) {
   log(`     [cyan]npx @korext/ai-license reference[reset]\n`);
 
   log(`  Add badge to your README:`);
-  log(`  [![AI License](https://oss.korext.com/ai-license-badge/${data.repo.owner}/${data.repo.name})](https://oss.korext.com/ai-license)\n`);
+  log(`  [![AI License](https://oss.korext.com/api/ai-license-badge/${data.repo.owner}/${data.repo.name})](https://oss.korext.com/ai-license)\n`);
 }
 
 function cmdAppend() {

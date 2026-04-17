@@ -104,7 +104,7 @@ The AI provenance data in this notice
 can be verified against the
 .ai-attestation.yaml file in the repo
 root, or online at:
-https://oss.korext.com/report/{owner}/{repo}
+https://oss.korext.com/ai-attestation/report/{owner}/{repo}
 
 LEARN MORE:
 https://oss.korext.com/ai-license
@@ -141,7 +141,7 @@ governance:
   verification_url: null
 verification:
   attestation_file: .ai-attestation.yaml
-  online_report: https://oss.korext.com/report/owner/repo
+  online_report: https://oss.korext.com/ai-attestation/report/owner/repo
 specification:
   url: https://oss.korext.com/ai-license
   license: CC0 1.0 Universal
