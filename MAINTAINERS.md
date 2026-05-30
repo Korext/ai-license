@@ -1,24 +1,16 @@
 # Maintainers
 
-## Lead Maintainer
+## Tom Bruno
 
-**Tom Bruno**
-Founder, Korext
+- **Role:** Creator, lead maintainer
+- **GitHub:** [@tombruno-korext](https://github.com/tombruno-korext)
+- **Contact:** maintainers@korext.com
+- **Areas:** licensing framework, legal coordination, registry maintenance
 
-- GitHub: [@tombruno-korext](https://github.com/tombruno-korext)
-- LinkedIn: [linkedin.com/in/tbrunoh](https://linkedin.com/in/tbrunoh)
-- Contact: [maintainers@korext.com](mailto:maintainers@korext.com)
+Tom is the creator of Korext Open Source and Founder of [Korext](https://korext.com), the commercial governance platform that enforces these standards inside regulated industries.
 
-## Contributing
+### Education
 
-We welcome community contributors and maintainers. To get involved:
-
-1. Read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines specific to this project.
-
-2. Browse open issues for tasks labeled `good first issue` or `help wanted`.
-
-3. To discuss becoming a reviewer or maintainer, email maintainers@korext.com.
-
-## Full Team
-
-See [oss.korext.com/team](https://oss.korext.com/team)
+- MEng in AI/ML, Robotics, and Controls (UC Berkeley)
+- MS in Innovation and Entrepreneurship (HEC Paris)
+- BS in Digital Technology, Design, and Innovation (Technological University Dublin)
